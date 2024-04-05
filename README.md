@@ -12,4 +12,4 @@ Keystrix is an advanced keylogger project designed to monitor and record keystro
 
 
 # Installation & setup
-pip install -r requirements.txt
+   sudo python3 -m pip install -r requirements.txt
