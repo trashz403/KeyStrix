@@ -6,7 +6,7 @@ Keystrix is an advanced keylogger project designed to monitor and record keystro
 *  Stealth Mode: Keystrix operates silently in the background, without any noticeable impact on the system's performance or user experience. It runs as a hidden process, making it difficult for users to detect its presence.
 
 *  Keylogging Functionality: The core functionality of Keystrix is to capture and log keystrokes typed by the user. It records all keystrokes, including text inputs, passwords, and other sensitive information entered through the keyboard.
-*  
+   
 *  Application Monitoring: Keystrix can monitor specific applications or windows, capturing keystrokes typed within those applications selectively. This feature allows for targeted monitoring of user activities in specific programs, such as web 
    browsers, chat applications, or document editors.
 
