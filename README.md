@@ -23,7 +23,9 @@ Keystrix is an advanced keylogger project designed to monitor and record keystro
 * Law Enforcement: Law enforcement agencies can use Keystrix as part of forensic investigations to gather evidence related to cybercrimes, unauthorized access, or malicious activities.
 
 # Installation-setup & run
-   git clone https://github.com/trashz403/KeyStrix.git
-   cd KeyStrix
+1. clone repository
+```
+git clone https://github.com/trashz403/KeyStrix.git
+```
    sudo python3 -m pip install -r requirements.txt
    sudo python3 keystrix.py
