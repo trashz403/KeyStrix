@@ -6,12 +6,19 @@ import datetime
 
 colorama.init()
 
-text = """
-8  dP 8888 Yb  dP .d88b. 88888 888b. 888 Yb  dP 
-8wdP  8www  YbdP  YPwww.   8   8  .8  8   YbdP  
-88Yb  8      YP       d8   8   8wwK'  8   dPYb  
-8  Yb 8888   88   `Y88P'   8   8  Yb 888 dP  Yb 
+#New TEXT
+
+
+print_banner="""
+██╗  ██╗███████╗██╗   ██╗███████╗████████╗██████╗ ██╗██╗  ██╗
+██║ ██╔╝██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔══██╗██║╚██╗██╔╝
+█████╔╝ █████╗   ╚████╔╝ ███████╗   ██║   ██████╔╝██║ ╚███╔╝ 
+██╔═██╗ ██╔══╝    ╚██╔╝  ╚════██║   ██║   ██╔══██╗██║ ██╔██╗ 
+██║  ██╗███████╗   ██║   ███████║   ██║   ██║  ██║██║██╔╝ ██╗
+╚═╝  ╚═╝╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+                                                             
 """
+
 special_text = "KEYSTRIX"
 username = "<@trashz403>"
 
@@ -20,7 +27,7 @@ colors = [Fore.RED, Fore.GREEN, Fore.YELLOW, Fore.BLUE, Fore.MAGENTA, Fore.CYAN]
 
 # Printing characters with color
 color_index = 0
-for char in text:
+for char in print_banner:
     if char != '\n':
         print(colors[color_index] + char, end="")
         color_index = (color_index + 1) % len(colors)
