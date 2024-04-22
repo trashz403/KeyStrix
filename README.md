@@ -27,5 +27,11 @@ Keystrix is an advanced keylogger project designed to monitor and record keystro
 ```
 git clone https://github.com/trashz403/KeyStrix.git
 ```
-   sudo python3 -m pip install -r requirements.txt
-   sudo python3 keystrix.py
+2. Install requirements
+```
+sudo python3 -m pip install -r requirements.txt
+```
+3. Run KEYSTRIX
+```
+sudo python3 keystrix.py
+```
